@@ -1,0 +1,100 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.App > span {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  width: 70%;
+  outline: none;
+  padding: 5px 10px;
+  font-size: 1.1rem;
+}
+
+ button {
+  border: none;
+  margin-left: 10px;
+  padding: 10px;
+  width: 100px;
+  background-color: rgb(187, 89, 229);
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.list {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: rgb(238, 238, 238);
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.completed-task {
+  margin: 10px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: rgb(238, 238, 238);
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.list h3,
+.completed-task h3 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  padding-inline: 10px;
+  border-radius: 10px;
+  background-color: rgb(215, 254, 255);
+}
+
+.todo p {
+  width: 80%;
+}
+
+.todo button {
+  border: none;
+  width: 30px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: rgb(212, 26, 26);
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
